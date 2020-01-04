@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# Utilizar solo con neovim!
 mkdir -p ~/.config/nvim
 mkdir -p ~/.vim/plugged
 cp init.vim ~/.vim/plugged/

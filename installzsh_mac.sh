@@ -10,4 +10,4 @@ mv zsh-syntax-highlighting .oh-my-zsh/custom/plugins/
 echo "source ${(q-)PWD}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
 
-cp .zshrc ~/.zshrc
+cp .zshrc_mac ~/.zshrc

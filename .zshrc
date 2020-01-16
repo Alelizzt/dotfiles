@@ -84,6 +84,7 @@ POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+    colorize
     git
     github
     bundler
@@ -96,6 +97,8 @@ plugins=(
     minikube
     rake
     zsh-autosuggestions
+    zsh-completions
+    zsh-syntax-highlighting
     last-working-dir
     web-search
     extract

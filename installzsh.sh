@@ -10,4 +10,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 mv zsh-syntax-highlighting .oh-my-zsh/custom/plugins/
 echo "source ${(q-)PWD}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 
-t clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions

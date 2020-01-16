@@ -12,4 +12,5 @@ echo "source ${(q-)PWD}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-sy
 
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 
+dpkg -i lsd_0.14.0_amd64.deb
 cp .zshrc ~/.zshrc

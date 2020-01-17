@@ -31,3 +31,8 @@ cd
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
+##para aplicar en root tambien
+sudo su
+ln -s -f /home/[YOURUSER]/.zshrc .zshrc
+
+

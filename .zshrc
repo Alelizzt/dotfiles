@@ -5,6 +5,9 @@
 export ZSH="/home/alelizzt/.oh-my-zsh"
 export TERM="xterm-256color"
 
+#Para usar con usuario root
+ZSH_DISABLE_COMPFIX=true
+
 #Manual configuration
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
@@ -178,8 +181,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source ~/.aliases
+source /home/alelizzt/.aliases
 
-source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

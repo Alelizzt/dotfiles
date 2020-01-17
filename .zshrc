@@ -6,7 +6,7 @@ export ZSH="/home/alelizzt/.oh-my-zsh"
 export TERM="xterm-256color"
 
 #Manual configuration
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -78,6 +78,46 @@ POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
+SAVEHIST=1000
+HISTFILE=~/.zsh_history
+
+# Set 'man' colors
+function man() {
+    env \
+    LESS_TERMCAP_mb=$'\e[01;31m' \
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    man "$@"
+}
+
+
+# fzf improvement https://github.com/junegunn/fzf
+function fzf-lovely(){
+ 
+        if [ "$1" = "h" ]; then
+                fzf -m --reverse --preview-window down:20 --preview '[[ $(file --mime {}) =~ binary ]] &&
+                        echo {} is a binary file ||
+                         (bat --style=numbers --color=always {} ||
+                          highlight -O ansi -l {} ||
+                          coderay {} ||
+                          rougify {} ||
+                          cat {}) 2> /dev/null | head -500'
+ 
+        else
+                fzf -m --preview '[[ $(file --mime {}) =~ binary ]] &&
+                                 echo {} is a binary file ||
+                                 (bat --style=numbers --color=always {} ||
+                                  highlight -O ansi -l {} ||
+                                  coderay {} ||
+                                  rougify {} ||
+                                  cat {}) 2> /dev/null | head -500'
+        fi
+    }
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -138,5 +178,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source ~/.aliases
+
+source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 

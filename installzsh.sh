@@ -13,8 +13,7 @@ mv zsh-autosuggestions .oh-my-zsh/custom/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 mv zsh-syntax-highlighting .oh-my-zsh/custom/plugins/
 
-git clone https://github.com/zsh-users/zsh-completions
-mv zsh-completions .oh-my-zsh/custom/plugins/
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 
 sudo chown root:root -R zsh-autosuggestions
 sudo chown root:root -R zsh-completions

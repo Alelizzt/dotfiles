@@ -14,7 +14,7 @@ cp .aliases ~/
 #instalando oh-my-zsh
 sudo apt install zsh -y
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-exit
+
 
 #instalando tema
 #git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
@@ -44,4 +44,4 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 #sudo su
 #ln -s -f /home/[YOURUSER]/.zshrc .zshrc
 
-
+cp .zshrc ~/.zshrc

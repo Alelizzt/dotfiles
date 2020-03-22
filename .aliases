@@ -7,3 +7,7 @@ alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 alias lt='lsd --tree'
 
+alias cat='/usr/bin/bat'
+alias catnl='/usr/bin/bat --pagging=never'
+alias catn='/usr/bin/cat'
+

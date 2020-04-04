@@ -13,7 +13,6 @@ set relativenumber
 set laststatus=2
 filetype on
 set nu
-set list
 
 call plug#begin('~/.vim/plugged')
 
@@ -30,7 +29,8 @@ endif
 
 "Temas
 Plug 'morhetz/gruvbox'
-
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 "IDE
 Plug 'easymotion/vim-easymotion'
@@ -41,6 +41,10 @@ call plug#end()
 
 colorscheme gruvbox
 let g:gruvbox_contrast_dark="hard"
+
+let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#enabled=1
+let g:airline_theme='powerlineish'
 
 let mapleader=" "
 let NERDTreeQuitOnOpen=1

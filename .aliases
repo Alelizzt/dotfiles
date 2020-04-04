@@ -1,9 +1,17 @@
 #!/usr/bin/env bash
 
+#lsd command
 alias ll='lsd -lh --group-dirs=first'
 alias la='lsd -a --group-dirs=first'
 alias l='lsd --group-dirs=first'
 alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 alias lt='lsd --tree'
+
+#bat command
+alias cat='/usr/bin/bat'
+#alias catn='/usr/bin/cat'
+alias catnl='/usr/bin/bat --paging=never'
+
+alias grep='grep --color'
 

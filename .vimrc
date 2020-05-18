@@ -28,7 +28,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 "Temas
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'crusoexia/vim-monokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
@@ -39,8 +40,10 @@ Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 
-colorscheme gruvbox
-let g:gruvbox_contrast_dark="hard"
+"colorscheme gruvbox
+"let g:gruvbox_contrast_dark="hard"
+colorscheme monokai
+
 
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1

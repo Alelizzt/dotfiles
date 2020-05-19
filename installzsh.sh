@@ -5,9 +5,7 @@ if [[ $EUID == 0 ]]; then
     exit 1
 fi
 #instalando fuente
-sudo mkdir /usr/share/fonts/'Hack Regular Nerd Font Complete'
-sudo cp fonts/Hack\ Regular\ Nerd\ Font\ Complete.ttf /usr/share/fonts/Hack\ Regular\ Nerd\ Font\ Complete/
-sudo chmod +w /usr/share/fonts/Hack\ Regular\ Nerd\ Font\ Complete/Hack\ Regular\ Nerd\ Font\ Complete.ttf
+sudo cp /fonts/Hack*.ttf /usr/local/share/fonts
 #alias
 cp .aliases ~/
 

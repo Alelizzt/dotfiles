@@ -63,4 +63,5 @@ sudo make -j$(nproc)
 sudo make install
 
 #Pendiente VPN y archivo de config polybar
-
+mkdir ~/.config/bin
+cp ethernet_status.sh ~/.config/bin/ethernet_status.sh

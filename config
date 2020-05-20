@@ -18,7 +18,7 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
+background = #aa2F343F
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
@@ -58,7 +58,7 @@ font-3 = Hack Nerd Font Mono:pixelsize=15;2
 
 modules-left = bspwm i3
 modules-center = xwindow
-modules-right =  ethernet memory pulseaudio battery wlan eth date powermenu
+modules-right = ethernet vpn pulseaudio battery wlan eth date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -422,7 +422,12 @@ margin-top = 5
 margin-bottom = 5
 
 ; vim:ft=dosini
-[module/ehternet]
+[module/ethernet]
 type = custom/script
 interval = 2
 exec = ~/.config/bin/ethernet_status.sh 
+
+[vpn]
+type = custom/script
+interval = 2 
+exec = ~/.config/bin/vpnstatus.sh

@@ -16,6 +16,25 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/us
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
 
+
+# Functions
+function mkt(){
+	mkdir {nmap,content,exploits,scripts}
+}
+
+# Extract nmap information
+function extractPorts(){
+	ports="$(cat $1 | grep -oP '\d{1,5}/open' | awk '{print $1}' FS='/' | xargs | tr ' ' ',')"
+	ip_address="$(cat $1 | grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' | sort -u | head -n 1)"
+	echo -e "\n[*] Extracting information...\n" > extractPorts.tmp
+	echo -e "\t[*] IP Address: $ip_address"  >> extractPorts.tmp
+	echo -e "\t[*] Open ports: $ports\n"  >> extractPorts.tmp
+	echo $ports | tr -d '\n' | xclip -sel clip
+	echo -e "[*] Ports copied to clipboard\n"  >> extractPorts.tmp
+	cat extractPorts.tmp; rm extractPorts.tmp
+}
+
+
 # Set 'man' colors
 function man() {
     env \
@@ -50,6 +69,15 @@ function fzf-lovely(){
                                 cat {}) 2> /dev/null | head -500'
     fi
 }
+
+
+# Borrado seguro
+function rmk(){
+	scrub -p dod $1
+	shred -zun 10 -v $1
+}
+
+#Plugins!!
 
 plugins=(
     colorize

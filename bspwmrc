@@ -2,8 +2,10 @@
 
 sxhkd &
 compton --config /home/alelizzt/.config/compton/compton.conf &
+nitrogen --restore &
+#xrandr -s 1680x1050 &
 #Ruta del wallpaper
-feh --bg-fill /home/alelizzt/Pictures/Anime/wall.png &
+#feh --bg-fill /home/alelizzt/Pictures/Anime/wall.png &
 #Solucion errores java
 wmname LG3D &
 ~/.config/polybar/launch.sh &

@@ -1,2 +1,3 @@
 sxhkd &
-exec bspwn
+nitrogen --restore &
+exec bspwm

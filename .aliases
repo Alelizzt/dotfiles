@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+alias vim='nvim'
 #lsd command
 alias ll='lsd -lh --group-dirs=first'
 alias la='lsd -a --group-dirs=first'

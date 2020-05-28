@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export _JAVA_AWT_WM_NONREPARENTING=1
 # Terminate already running bar instances
 killall -q polybar
 

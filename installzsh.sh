@@ -41,5 +41,5 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ##para aplicar en root tambien
 #sudo su
 #ln -s -f /home/[YOURUSER]/.zshrc .zshrc
-sudo apt install xclip scrub shred
+sudo apt install xclip scrub shred mpd mpc
 cp .zshrc ~/.zshrc

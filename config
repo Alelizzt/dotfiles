@@ -69,7 +69,7 @@ font-2 = Hack Nerd Font Mono:pixelsize=15;2
 
 modules-left = bspwm i3
 modules-center = xwindow
-modules-right = vpn battery wlan alsa eth date xkeyboard off powermenu
+modules-right = vpn battery wlan alsa eth date xkeyboard powermenu
 
 tray-position = right
 tray-padding = 2
@@ -384,11 +384,12 @@ ramp-foreground = ${colors.foreground-alt}
 [module/powermenu]
 type = custom/menu
 
+
 expand-right = true
 
 format-spacing = 1
 
-label-open = 
+label-open = 
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}
@@ -428,10 +429,3 @@ margin-bottom = 5
 type = custom/script
 interval = 2 
 exec = ~/.config/bin/vpnstatus.sh
-
-[module/off]
-type = custom/text
-content = 
-content-foreground = ${colors.primary}
-click-left = oblogout
-content-margin-right = 0

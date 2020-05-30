@@ -425,7 +425,7 @@ margin-bottom = 5
 
 ; vim:ft=dosini
 
-[vpn]
+[module/vpn]
 type = custom/script
 interval = 2 
 exec = ~/.config/bin/vpnstatus.sh

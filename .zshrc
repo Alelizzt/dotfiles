@@ -1,4 +1,9 @@
-source ~/.powerlevel10k/powerlevel10k.zsh-theme
+if [[ $UID == 0 || $EUID == 0  ]]
+then
+    source ~/.powerlevel10k/powerlevel10k.zsh-theme
+else
+    source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

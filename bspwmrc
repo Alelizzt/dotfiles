@@ -2,12 +2,13 @@
 
 sxhkd &
 compton --config /home/alelizzt/.config/compton/compton.conf &
-nitrogen --restore &
-#xrandr -s 1680x1050 &
 #Ruta del wallpaper
-#feh --bg-fill /home/alelizzt/Pictures/Anime/wall.png &
+feh --bg-fill /home/alelizzt/Pictures/Anime/wall.png &
 #Solucion errores java
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolkit
 wmname LG3D &
+#Polybar
 ~/.config/polybar/launch.sh &
 
 bspc config pointer_modifier mod1

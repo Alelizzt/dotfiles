@@ -75,10 +75,10 @@ tray-position = right
 tray-padding = 2
 ;tray-background = #0063ff
 
-;wm-restack = bspwm
+wm-restack = bspwm
 ;wm-restack = i3
 
-;override-redirect = true
+override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
@@ -92,8 +92,8 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 format-padding = 1
-label = %title:0:30:...%
-label-maxlen = 20
+label = %title:0:50:...%
+label-maxlen = 50
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -391,7 +391,7 @@ format-spacing = 1
 
 label-open = 
 label-open-foreground = ${colors.secondary}
-label-close =  cancel
+label-close = ﰸ cancel
 label-close-foreground = ${colors.secondary}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
@@ -425,7 +425,7 @@ margin-bottom = 5
 
 ; vim:ft=dosini
 
-[module/vpn]
+[vpn]
 type = custom/script
 interval = 2 
 exec = ~/.config/bin/vpnstatus.sh

@@ -12,4 +12,4 @@ sudo pacman -S --needed - < extra/ManjaroPackages.txt
 yay -S --needed - < extra/AurPackages.txt 
 ```
 
-TODO: cheatsheet for commands
+TODO: cheatsheet for Tools

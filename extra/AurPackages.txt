@@ -1,0 +1,5 @@
+docker-machine-driver-kvm2
+google-chrome
+spotify
+visual-studio-code-bin
+vmware-workstation

@@ -1,0 +1,28 @@
+[2021-12-31 18:55:56.252] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-12-31 18:55:56.285] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2021-12-31 18:55:56.287] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-wsl
+[2021-12-31 18:55:56.291] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-12-31 18:55:56.521] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-12-31 18:55:56.522] [sharedprocess] [info] Installing extension: pkief.material-icon-theme
+[2021-12-31 18:56:00.619] [sharedprocess] [info] Downloaded extension: pkief.material-icon-theme /home/alelizzt/.config/Code/CachedExtensionVSIXs/pkief.material-icon-theme-4.11.0
+[2021-12-31 18:56:01.349] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.2a181a6f-230a-4fd7-b164-aeb531a3e135: pkief.material-icon-theme
+[2021-12-31 18:56:01.363] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/pkief.material-icon-theme-4.11.0
+[2021-12-31 18:56:01.365] [sharedprocess] [info] Extracting completed. pkief.material-icon-theme
+[2021-12-31 18:56:01.371] [sharedprocess] [info] Extension installed successfully: pkief.material-icon-theme
+[2021-12-31 18:56:02.660] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-wsl /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-wsl-0.63.13
+[2021-12-31 18:56:02.751] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.95dcfeeb-665e-476f-b8af-170af21d2a7a: ms-vscode-remote.remote-wsl
+[2021-12-31 18:56:02.767] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-vscode-remote.remote-wsl-0.63.13
+[2021-12-31 18:56:02.768] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-wsl
+[2021-12-31 18:56:02.772] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-wsl
+[2021-12-31 18:56:05.790] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.4
+[2021-12-31 18:56:05.957] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.ed76dc8c-8c58-4d9e-a2dc-79af6e7f7c92: ms-toolsai.jupyter-renderers
+[2021-12-31 18:56:05.969] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.4
+[2021-12-31 18:56:05.970] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2021-12-31 18:56:05.977] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2021-12-31 18:56:15.619] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-31 18:56:15.627] [sharedprocess] [info] Downloaded extension: ms-python.python /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[2021-12-31 18:56:16.560] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.d282696b-2a0a-48d0-90d7-2341c547e069: ms-toolsai.jupyter
+[2021-12-31 18:56:16.586] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-toolsai.jupyter-2021.11.1001550889
+[2021-12-31 18:56:16.590] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-12-31 18:56:16.596] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-12-31 18:56:17.254] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.12.2

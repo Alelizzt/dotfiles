@@ -1,0 +1,26 @@
+[2021-11-23 17:01:10.678] [settingssync] [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+[2021-11-23 17:01:10.678] [settingssync] [info] Auto Sync is enabled.
+[2021-11-23 17:01:10.678] [settingssync] [info] Auto Sync: Suspended until auth token is available.
+[2021-11-23 17:01:11.960] [settingssync] [info] Auto Sync: Started
+[2021-11-23 17:01:11.961] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-11-23 17:01:12.671] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-11-23 17:01:12.732] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-11-23 17:01:12.766] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-11-23 17:01:12.796] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-11-23 17:01:13.142] [settingssync] [info] Extensions: Updated remote extensions. Updated: ["ms-azuretools.vscode-docker"].
+[2021-11-23 17:01:13.152] [settingssync] [info] Extensions: Updated last synchronized extensions.
+[2021-11-23 17:01:13.154] [settingssync] [info] Sync done. Took 508ms
+[2021-11-23 17:01:13.477] [settingssync] [info] Auto Sync: Triggered by Activity
+[2021-11-23 17:01:13.724] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-11-23 17:01:13.734] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-11-23 17:01:13.735] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-11-23 17:01:13.747] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-11-23 17:01:13.830] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-11-23 17:01:13.831] [settingssync] [info] Sync done. Took 113ms
+[2021-11-23 17:06:13.833] [settingssync] [info] Auto Sync: Triggered by Interval
+[2021-11-23 17:06:14.673] [settingssync] [info] Settings: No changes found during synchronizing settings.
+[2021-11-23 17:06:14.677] [settingssync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2021-11-23 17:06:14.680] [settingssync] [info] Snippets: No changes found during synchronizing snippets.
+[2021-11-23 17:06:14.690] [settingssync] [info] GlobalState: No changes found during synchronizing ui state.
+[2021-11-23 17:06:14.786] [settingssync] [info] Extensions: No changes found during synchronizing extensions.
+[2021-11-23 17:06:14.788] [settingssync] [info] Sync done. Took 126ms

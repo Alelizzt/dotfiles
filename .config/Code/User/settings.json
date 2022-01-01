@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "onWindowChange",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "prettier.tabWidth": 4,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font"
+}

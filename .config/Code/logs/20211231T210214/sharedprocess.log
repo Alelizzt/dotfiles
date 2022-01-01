@@ -1,0 +1,16 @@
+[2021-12-31 21:02:17.740] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter-renderers /home/alelizzt/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.3
+[2021-12-31 21:02:17.741] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-wsl /home/alelizzt/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.5
+[2021-12-31 21:02:17.741] [sharedprocess] [info] Deleted from disk pkief.material-icon-theme /home/alelizzt/.vscode/extensions/pkief.material-icon-theme-4.10.0
+[2021-12-31 21:02:17.829] [sharedprocess] [info] Deleted from disk ms-toolsai.jupyter /home/alelizzt/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599
+[2021-12-31 21:02:20.336] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-12-31 21:02:20.385] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-12-31 21:02:20.681] [sharedprocess] [info] Downloaded extension: ms-python.python /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.12.1559732655
+[2021-12-31 21:02:20.706] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.12.2
+[2021-12-31 21:02:23.143] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.645cce3b-6d68-4a14-9ef5-110dd1484587: ms-python.python
+[2021-12-31 21:02:23.176] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-python.python-2021.12.1559732655
+[2021-12-31 21:02:23.179] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-12-31 21:02:23.186] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-12-31 21:02:24.372] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.2f5d5d62-987c-4fc9-b94e-80d4eef8b879: ms-python.vscode-pylance
+[2021-12-31 21:02:24.409] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-python.vscode-pylance-2021.12.2
+[2021-12-31 21:02:24.411] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-12-31 21:02:24.415] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

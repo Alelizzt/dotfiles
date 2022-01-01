@@ -1,0 +1,26 @@
+[2021-11-23 17:01:10.941] [sharedprocess] [info] Deleted from disk ms-vscode-remote.remote-wsl /home/alelizzt/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.2
+[2021-11-23 17:01:11.095] [sharedprocess] [info] Deleted from disk ms-azuretools.vscode-docker /home/alelizzt/.vscode/extensions/ms-azuretools.vscode-docker-1.16.1
+[2021-11-23 17:01:13.986] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-11-23 17:01:13.991] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-11-23 17:01:13.994] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-11-23 17:01:13.996] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2021-11-23 17:01:22.604] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /home/alelizzt/.config/Code/CachedExtensionVSIXs/esbenp.prettier-vscode-9.0.0
+[2021-11-23 17:01:22.990] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.2ec87cd0-c3f9-45d0-b65d-8f01aa41b5d1: esbenp.prettier-vscode
+[2021-11-23 17:01:23.003] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/esbenp.prettier-vscode-9.0.0
+[2021-11-23 17:01:23.004] [sharedprocess] [info] Extracting completed. esbenp.prettier-vscode
+[2021-11-23 17:01:23.010] [sharedprocess] [info] Extension installed successfully: esbenp.prettier-vscode
+[2021-11-23 17:01:30.507] [sharedprocess] [info] Downloaded extension: ms-python.python /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-python.python-2021.11.1422169775
+[2021-11-23 17:01:32.241] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.10.1101450599
+[2021-11-23 17:01:32.523] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.b184c1fd-0381-47ee-8037-1bea10c98845: ms-python.python
+[2021-11-23 17:01:32.543] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-python.python-2021.11.1422169775
+[2021-11-23 17:01:32.546] [sharedprocess] [info] Extracting completed. ms-python.python
+[2021-11-23 17:01:32.553] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2021-11-23 17:01:32.833] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.c415d2bc-9566-470a-bcdf-6c17a5a10439: ms-toolsai.jupyter
+[2021-11-23 17:01:32.850] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-toolsai.jupyter-2021.10.1101450599
+[2021-11-23 17:01:32.862] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2021-11-23 17:01:32.870] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2021-11-23 17:01:38.296] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/alelizzt/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.11.2
+[2021-11-23 17:01:40.726] [sharedprocess] [info] Extracted extension to /home/alelizzt/.vscode/extensions/.f43772dc-24d4-4863-ada6-4a4b89e9a21f: ms-python.vscode-pylance
+[2021-11-23 17:01:40.756] [sharedprocess] [info] Renamed to /home/alelizzt/.vscode/extensions/ms-python.vscode-pylance-2021.11.2
+[2021-11-23 17:01:40.758] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-11-23 17:01:40.764] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance

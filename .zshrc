@@ -39,11 +39,6 @@ function extractPorts(){
 	cat extractPorts.tmp; rm extractPorts.tmp
 }
 
-# confirm before overwriting something
-alias cp="cp -i"
-alias mv='mv -i'
-alias rm='rm -i'
-
 # Set 'man' colors
 function man() {
     env \
@@ -161,6 +156,13 @@ plugins=(
     z
 )
 
+## External scripts ##
+source $ZSH/oh-my-zsh.sh
+source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
+source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 ## Aliases ##
 alias vim='nvim'
 
@@ -187,9 +189,8 @@ alias unlock='sudo rm /var/lib/pacman/db.lck'    # remove pacman lock
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'  # remove orphaned packages
 
 
-## External scripts ##
-source $ZSH/oh-my-zsh.sh
-source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
-source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# confirm before overwriting something
+#alias cp="cp -i"
+#alias mv='mv -i'
+alias rm='rm -i'

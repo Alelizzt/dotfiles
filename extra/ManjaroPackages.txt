@@ -13,6 +13,7 @@ android-udev
 apparmor
 audacious
 avahi
+kitty
 b43-fwcutter
 bash-completion
 bat

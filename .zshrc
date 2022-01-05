@@ -142,6 +142,7 @@ plugins=(
     systemd
     python
     minikube
+    nvm
     kubectl
     rake
     zsh-autosuggestions
@@ -160,6 +161,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 source /home/alelizzt/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /usr/share/nvm/init-nvm.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

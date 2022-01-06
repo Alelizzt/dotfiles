@@ -12,6 +12,13 @@ fi
 export ZSH="/home/alelizzt/.oh-my-zsh"
 export TERM="xterm-256color"
 
+# Android environment variables
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 # Fix para utilizar el plugin autocompletado con root
 ZSH_DISABLE_COMPFIX=true
 
